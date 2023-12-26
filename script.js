@@ -87,8 +87,6 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Bangalore', 
   .then((response) => {
 
     console.log(response)
-
-    // cloud_pct.innerHTML = response.cloud_pct
     bangalore_temp.innerHTML = response.temp
     bangalore_feels_like.innerHTML = response.feels_like
     bangalore_humidity.innerHTML = response.humidity
